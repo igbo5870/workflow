@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les variables et opérations</title>
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <!-- 
+        Partie 1 : les mixins
+        - Créer une mixins permettant de mettre en forme un élément HTML (couleur de fond, arrondi, bordure, etc). Celle-ci doit au moins avoir pour paramètres :
+            - la couleur de fond (optionnel)
+            - la couleur de la bordure (obligatoire)
+            - la largeur de la bordure (obligatoire)
+        En sachant que :
+            - si la couleur de fond est noir (#000), alors le texte doit être en blanc
+            - si la largeur de la bordure et égale ou inférieur à 0, alors le bord doit être arrondi
+        Tester la mixin sur le p class 'bloc'
+
+        Partie 2 : les extends
+        - Créer une classe étendue de message contenant :
+            - un espacement intérieur
+            - un arrondi de 1em
+            - une bordure
+            - un espacement extérieur
+            - un titre en gras avec un espacement bas
+        - Pour chaque type de message, appliquer la classe étendue de message et changer la couleur de bordure et de fond
+     -->
+    <main>
+        <p class="bloc">
+            Duo error recusabo eu, ex esse postea quo, per te propriae conceptam. Cum no melius fabulas, electram elaboraret scriptorem ad eos, id appetere periculis nec. No pri justo facete possim. Fugit putent id per, ex illud sanctus mei. Convenire reprimique pro te.
+        </p>
+        <section class="msg-valid">
+            <h1 class="msg-title">Bravo !</h1>
+            <p class="msg-content">Vous lisez un message de validation !</p>
+        </section>
+        <section class="msg-warning">
+            <h1 class="msg-title">Attention !</h1>
+            <p class="msg-content">Vous lisez un message qui demande votre attention !</p>
+        </section>
+        <section class="msg-error">
+            <h1 class="msg-title">Ouch !</h1>
+            <p class="msg-content">Je ne sais pas ce que vous avez fait, mais ça fait mal !</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* reset light */
+
+/* init css box model */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&::before, &::after {
+		box-sizing: border-box;
+	}
+}
+
+/* create HTML5 tag */
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section,
+picture {
+	display: block;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	overflow-x: hidden;
+}
+ul, li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	border: 0;
+}
+textarea {
+    font: 1rem $font;
+	resize: none;
+}
+input {
+    font: 1rem $font;
+
+	&[type="text"] {
+		-webkit-appearance:none;
+	}
+}
+[type="submit"] {
+	-webkit-appearance: none;
+}
+button {
+	border: 0;
+	cursor: pointer;
+	outline: none;
+}
+[aria-hidden="true"] {
+	display: none!important;
+}

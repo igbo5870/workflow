@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les variables et opérations</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Playfair+Display:900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="static/build/css/app.css">
+
+    <script src="static/build/js/app.js" defer></script>
+</head>
+<body>
+    <!-- 
+        Ah ! L'architecture est plus complexe :
+        /static (assets folder)
+            |_ /build (build folder > only used by application)
+                |_ /css
+                |_ /js
+            |_ /src (source folder > only used by developper)
+                |_ /scss
+                |_ /js
+        Le développeur écris ses styles et scripts dans le dossier src
+        Le task runner lance les taches et enregistre les ressources compilées dans le dossier build
+        Le site lie les ressources dans le dossier build
+
+
+        Partie 1 :
+        - Créer un tache 'css' pour transformer les scss en css.
+        - Créer un tache 'js' pour minifier et uglifier les js.
+
+        Partie 2 :
+        - Créer une tache 'watch' pour lancer un watcher gulp.
+     -->
+    <main>
+        <h1 class="title">Lorem ipsum</h1>
+        <div class="bloc">
+            <p class="element-1">Duo error recusabo eu, ex esse postea quo, per te propriae conceptam. Cum no melius fabulas, electram elaboraret scriptorem ad eos, id appetere periculis nec. No pri justo facete possim. Fugit putent id per, ex illud sanctus mei. Convenire reprimique pro te.</p>
+            <p class="element-2">Commodo recteque voluptaria cu vix, putant oportere signiferumque ea cum. Ad mollis perfecto ius, case tincidunt nam ei, nec at stet aeque utinam. Harum audire est te. Mazim mucius platonem vel ei, vero scaevola sapientem pri in.</p>
+            <p class="element-3">Commodo mel wisi consequat. Nam ocurreret necessitatibus ex, per mollis eirmod disputando ad, ut wisi forensibus eum. Iudico mollis ea pri, wisi aliquando no usu. Ex altera diceret mel, ex quo menandri principes deterruisset. Mazim integre usu eu, eam no exerci hendrerit prodesset.</p>
+            <p class="element-4">Commodo commune duo eu. Id duo erat quidam semper, laboramus eloquentiam in eum. Verear efficiantur eu sit. Te pro sonet iriure partiendo, ei eum mutat adhuc suscipit. Hinc gubergren percipitur id quo, nullam aliquid duo ea, quot idque officiis sea ne.</p>
+        </div>
+
+        <div class="bloc">
+            <p class="element-5">Duo eu sed expetenda concludaturque. At eum animal periculis. Et omnis salutatus vulputate cum, pri et elitr postea. Ne mei tota option, vix fugit oratio inimicus in. Id has sumo civibus percipitur, ea nam vide vituperata. Est lorem tollit detraxit at, te dolor eripuit mediocrem mel, nostrum menandri sadipscing vix ad. Ei reque mentitum reformidans qui, has at vocibus corpora, vero augue vel et.</p>
+            <p class="element-6">Commodo singulis no usu, option aperiri euripidis vix ne, eu tempor tamquam laoreet vis. Te probo explicari vel, probo ornatus constituto at qui. Dicta tamquam pro cu, veri atomorum eam id. Eum enim rebum adipisci ex, impetus deserunt ei quo.</p>
+            <p class="element-7">Duo vero delicata eam te, ut suas iriure vis, pri at nusquam lobortis molestiae. Debet nostro te est, vix latine antiopam an. Id verear adipiscing complectitur sea. Ea vis iusto labitur ocurreret, adolescens scriptorem vituperatoribus nec te.</p>
+        </div>
+        
+        <div class="bloc">
+            <p class="element-8">Commodo his deleniti constituto. Dolor soleat ridens sit eu. Eam ex adhuc officiis. Nostrud eligendi ei his, nemore pertinacia persequeris eu vix. Id pro fierent lobortis. Eos quis postea persecuti ea, ne per quidam definiebas sadipscing, posse mundi ius te.</p>
+            <p class="element-9">Commodo eos debitis omittam. Usu postea tractatos partiendo te, ex putant consulatu interpretaris has. Integre temporibus ad sea. Impetus fastidii nam ex, eum quando aperiam ad. Eum case definitiones in, at cum novum senserit. Dolor utinam eos ex, congue adipiscing definitionem ea vix. Everti eruditi dissentiunt no ius, eos no dolores recusabo elaboraret.</p>
+            <p class="element-10">Duo nec eu simul timeam scripserit, dolorem fierent sensibus ne ius, et usu feugiat philosophia. Vel id malis velit consequuntur, omnium accumsan eu vis, sit petentium explicari id. Ut diam dicant singulis nam, eu quas veniam eum, vel harum exerci constituam ea. Ius an minim consul maiestatis, esse justo homero no mea, nec sensibus scribentur id.</p>
+        </div>
+
+        <div id="elem" class="elem">Test Javascript : vert (ok), rouge (ko)</div>
+    </main>
+</body>
+</html>

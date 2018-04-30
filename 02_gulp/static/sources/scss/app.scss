@@ -1,0 +1,25 @@
+/* Bases */
+@import "base";
+
+/* Reset */
+@import "reset®";
+
+/* Styles */
+html {
+    font: 62.5% $font;
+    background: $color2;
+    color: $color1;
+}
+body {
+    font-size: 1.6rem;
+    max-width: $screen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: $fontSub;
+}
+.elem {
+    color: #F00;
+}
