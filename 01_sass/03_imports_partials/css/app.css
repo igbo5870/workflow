@@ -1,0 +1,27 @@
+.bloc p {
+  background-color: #6a6af7;
+  color: #FFF; }
+
+.other-bloc p {
+  padding: 1.5em;
+  border: .5em #000 solid; }
+
+.element {
+  font-weight: bold; }
+
+.other-element {
+  font-style: italic; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #f09e67; }
+
+a:active {
+  color: #eeda3f; }
+
+a:focus {
+  color: #11f418; }
+
+/*# sourceMappingURL=app.css.map */

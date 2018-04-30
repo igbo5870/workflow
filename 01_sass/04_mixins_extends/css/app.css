@@ -1,0 +1,30 @@
+.bloc {
+  color: #FFF;
+  background-color: #125670;
+  border: 0.3em solid #000;
+  border-radius: 1em; }
+
+.msg-valid, .msg-warning, .msg-error {
+  text-align: center;
+  border: .3em solid;
+  border-radius: 1em;
+  padding: .5em;
+  margin: .5em;
+  color: #333; }
+  .msg-valid h1, .msg-warning h1, .msg-error h1 {
+    font-weight: bold;
+    margin-bottom: 3em; }
+
+.msg-valid {
+  border-color: #079623;
+  background: #4ee26b; }
+
+.msg-warning {
+  border-color: #ff6f00;
+  background: #ffae00; }
+
+.msg-error {
+  border-color: #c90000;
+  background: #ff0000; }
+
+/*# sourceMappingURL=app.css.map */

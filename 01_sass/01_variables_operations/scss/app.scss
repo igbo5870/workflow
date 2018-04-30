@@ -1,0 +1,67 @@
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$duo-color: #4410d3;
+$commodo-color: #d31010;
+$bloc-margin: 2em;
+$bloc-padding: 1em;
+$paragrah-padding: 4em;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.bloc{
+    margin: $bloc-margin;
+    padding-top: $bloc-padding;
+    padding-bottom: $bloc-padding;
+}
+
+.bloc p{
+    padding-bottom: $bloc-margin;
+    padding-top: $paragrah-padding;
+}
+// Texte commençant par DUO
+.element-1{
+    color: $duo-color;
+}
+
+.element-5{
+    color: $duo-color;
+}
+
+.element-7{
+    color: $duo-color;
+}
+
+.element-10{
+    color: $duo-color;
+}
+
+// Texte commençant par COMMODO
+
+.element-2{
+    color: $commodo-color;
+}
+
+.element-3{
+    color: $commodo-color;
+}
+
+.element-4{
+    color: $commodo-color;
+}
+
+.element-6{
+    color: $commodo-color;
+}
+
+.element-8{
+    color: $commodo-color;
+}
+
+.element-9{
+    color: $commodo-color;
+}

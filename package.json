@@ -1,0 +1,26 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "## Phase 1 : les pré-processeurs css Un pré-processeur css est un programme transformant un langage en CSS avant l'interprétation de celui-ci par le navigateur. Il a l'avantage de proposer des fonctionnalités inconnues ou non totalement supportées par les navigateurs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igbo5870/workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igbo5870/workflow/issues"
+  },
+  "homepage": "https://github.com/igbo5870/workflow#readme",
+  "dependencies": {
+    "sass": "^1.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

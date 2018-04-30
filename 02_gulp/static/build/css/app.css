@@ -1,0 +1,83 @@
+/* Bases */
+/**************/
+/*   Colors   */
+/**************/
+/* Black */
+/* White */
+/**************/
+/*   Fonts    */
+/**************/
+/**************/
+/*   Size    */
+/**************/
+/* Reset */
+/* reset light */
+/* init css box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *::before, *::after {
+    box-sizing: border-box; }
+
+/* create HTML5 tag */
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section,
+picture {
+  display: block; }
+
+html, body {
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  border: 0; }
+
+textarea {
+  font: 1rem "Lato", arial, sans-serif;
+  resize: none; }
+
+input {
+  font: 1rem "Lato", arial, sans-serif; }
+  input[type="text"] {
+    -webkit-appearance: none; }
+
+[type="submit"] {
+  -webkit-appearance: none; }
+
+button {
+  border: 0;
+  cursor: pointer;
+  outline: none; }
+
+[aria-hidden="true"] {
+  display: none !important; }
+
+/* Styles */
+html {
+  font: 62.5% "Lato", arial, sans-serif;
+  background: #f4f2f0;
+  color: #7c4a96; }
+
+body {
+  font-size: 1.6rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+h1 {
+  font-family: "Playfair Display", georgia, serif; }
+
+.elem {
+  color: #F00; }

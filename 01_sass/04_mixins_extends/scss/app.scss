@@ -1,0 +1,42 @@
+@mixin element-html($color, $background, $border, $radius) {
+    color: $color;
+    background-color: $background;
+    border: $border;
+    border-radius: $radius;
+  }
+  
+.bloc { 
+    @include element-html(#FFF, #125670,  .3em solid #000, 1em); 
+}
+
+%message-shared {
+    text-align: center;
+    border: .3em solid;
+    border-radius: 1em;
+    padding: .5em;
+    margin: .5em;
+    color: #333;
+
+    h1{
+        font-weight: bold;
+        margin-bottom: 3em;
+    }
+  }
+
+.msg-valid{
+    @extend %message-shared;
+    border-color: #079623;
+    background: #4ee26b
+}
+
+.msg-warning{
+    @extend %message-shared;
+    border-color: #ff6f00;
+    background:#ffae00; 
+}
+
+.msg-error{
+    @extend %message-shared;
+    border-color: #c90000;
+    background: #ff0000
+}
